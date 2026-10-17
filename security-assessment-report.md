@@ -64,4 +64,11 @@ The local training application was started successfully, and its HTTP response h
 
 ## 8. Evidence
 
-Screenshots should be stored in the `evidence/` directory and referenced using their repository-relative paths.
+The following screenshots were captured during the authorized local OWASP Juice Shop assessment:
+
+1. `evidence/cmd.jpeg` — Command prompt showing the lab startup and environment.
+2. `evidence/02-juice-shop-homepage.jpeg` — OWASP Juice Shop running locally.
+3. `evidence/05-security-headers.jpeg` — Browser DevTools showing HTTP response headers.
+4. `evidence/06-additional-response-headers...` — Additional response-header observations.
+
+**Finding:** The Content Security Policy (CSP) header was not observed on the inspected main HTML response. Further validation is required before confirming a vulnerability.
